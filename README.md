@@ -1,23 +1,22 @@
-# CRONO_VIDA
-CRONO VIDA es un dispositivo wearable con ESP32-PICO-D4 que ayuda a gestionar horarios de medicación. Utiliza una pantalla E-Paper para mostrar la hora y emite recordatorios vibrantes. Permite interacción vía Bluetooth para registrar horarios y ajustar configuraciones, promoviendo una vida más organizada y saludable.
+# 🕒 CRONO VIDA
 
-**CRONO VIDA** es un dispositivo wearable basado en el microcontrolador ESP32-PICO-D4, diseñado para ayudar a gestionar horarios de medicación de manera eficiente. Este dispositivo utiliza una pantalla E-Paper de bajo consumo y cuenta con un sistema de recordatorios vibrantes.
+**CRONO VIDA** es un dispositivo wearable basado en el microcontrolador **ESP32-PICO-D4** que ayuda a gestionar horarios de medicación. Utiliza una pantalla E-Paper para mostrar la hora y emite recordatorios vibrantes. Permite interacción vía **Bluetooth** para registrar horarios y ajustar configuraciones, promoviendo una vida más organizada y saludable.
 
-## Componentes
+## 🔧 Componentes
 
 Este proyecto se basa en **Watchy 2.0** y utiliza los siguientes componentes:
 
 | Componente                               | Descripción                        |
 |------------------------------------------|------------------------------------|
-| Microcontrolador ESP32-PICO-D4           | Controlador principal              |
-| USB-Serial CP2104                        | Conversor USB a Serial             |
-| E-Paper Display GDEH0154D67             | Pantalla de bajo consumo           |
-| Display Connector AFC07-S24ECC-00       | Conector de pantalla               |
-| 3-Axis Accelerometer BMA423             | Sensor de movimiento                |
-| Real Time Clock DS3231                   | Módulo de reloj en tiempo real    |
-| Battery LiPo 3.7V 200mAh 402030         | Fuente de alimentación             |
+| 🛠️ Microcontrolador ESP32-PICO-D4       | Controlador principal              |
+| 💻 USB-Serial CP2104                    | Conversor USB a Serial             |
+| 🖥️ E-Paper Display GDEH0154D67         | Pantalla de bajo consumo           |
+| 🔌 Display Connector AFC07-S24ECC-00    | Conector de pantalla               |
+| 📏 3-Axis Accelerometer BMA423          | Sensor de movimiento                |
+| ⏰ Real Time Clock DS3231                | Módulo de reloj en tiempo real    |
+| 🔋 Battery LiPo 3.7V 200mAh 402030      | Fuente de alimentación             |
 
-## Librerías
+## 📚 Librerías
 
 El proyecto utiliza las siguientes librerías:
 
@@ -27,7 +26,7 @@ El proyecto utiliza las siguientes librerías:
 - `BluetoothSerial.h`
 - `GxEPD2_BW.h`
 
-## Funcionamiento
+## 🚀 Funcionamiento
 
 **CRONO VIDA** permite a los usuarios gestionar sus horarios de medicación de la siguiente manera:
 
@@ -36,7 +35,7 @@ El proyecto utiliza las siguientes librerías:
 - **Alertas de Medicación**: Emite vibraciones para recordar a los usuarios cuando es hora de tomar sus medicamentos.
 - **Interacción Simple**: Los usuarios pueden ajustar la hora y la fecha, así como consultar la lista de medicamentos registrados mediante comandos específicos.
 
-## Cómo Usar
+## 📋 Cómo Usar
 
 1. **Conectar el dispositivo**: Asegúrate de que la batería esté cargada y el dispositivo esté encendido.
 2. **Usar Bluetooth**: Conéctate al dispositivo usando un terminal Bluetooth para enviar comandos.
@@ -44,7 +43,7 @@ El proyecto utiliza las siguientes librerías:
 4. **Consultar Hora**: La hora se muestra automáticamente en la pantalla, actualizándose cada minuto.
 5. **Recibir Alertas**: El dispositivo vibrará para recordarte cuando sea hora de tomar un medicamento registrado.
 
-## Pinout del ESP32-PICO-D4
+## 📍 Pinout del ESP32-PICO-D4
 
 | Función                          | Pin  | Descripción                           |
 |----------------------------------|------|---------------------------------------|
@@ -82,10 +81,10 @@ El proyecto utiliza las siguientes librerías:
 | Nombre de AP                     | -    | "EspClock"                            |
 | Contraseña de AP                 | -    | "12345"                               |
 
-## Contribuciones
+## 🤝 Contribuciones
 
 Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar pull requests.
 
-## Licencia
+## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT.
