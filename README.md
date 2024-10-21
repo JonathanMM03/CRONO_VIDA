@@ -70,8 +70,17 @@ El proyecto utiliza las siguientes librerías:
 | Botón 2                          | 25   | Segundo botón                         |
 | Botón 3                          | 32   | Tercer botón                          |
 | Botón 4                          | 4    | Cuarto botón                          |
-| **Buzze
-
+| **Buzzer**                       | 13   | Motor de vibración                   |
+| **ADC**                          | 33   | Entrada analógica                     |
+| **UART**                         |      |                                       |
+| UART TX                          | 1    | Transmisión UART                      |
+| UART RX                          | 3    | Recepción UART                        |
+| **Dimensiones de la Pantalla**  |      |                                       |
+| Altura                           | -    | 200                                   |
+| Ancho                            | -    | 200                                   |
+| **Acceso AP**                    |      |                                       |
+| Nombre de AP                     | -    | "EspClock"                            |
+| Contraseña de AP                 | -    | "12345"                               |
 
 ## Contribuciones
 
