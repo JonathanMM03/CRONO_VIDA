@@ -81,6 +81,11 @@ El proyecto utiliza las siguientes librerías:
 | Nombre de AP                     | -    | "EspClock"                            |
 | Contraseña de AP                 | -    | "12345"                               |
 
+## 🖼️ Imágenes
+
+![Diagrama de Bloque de Watchy](watchy-block-diagram2.webp)
+![Diseño Open Source de Watchy](watchy-esp32-smart-watch-open-source-design.webp)
+
 ## 🤝 Contribuciones
 
 Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar pull requests.
@@ -88,3 +93,7 @@ Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar 
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT.
+
+## 📜 Cita
+
+Aggarwal, P. (2021, 7 agosto). Watchy: an open source E-Paper display watch. Pallav Aggarwal. [https://pallavaggarwal.in/2021/07/04/watchy-epaper-display-esp32-smart-watch/](https://pallavaggarwal.in/2021/07/04/watchy-epaper-display-esp32-smart-watch/)
