@@ -81,14 +81,58 @@ El proyecto utiliza las siguientes librerías:
 | Nombre de AP                     | -    | "EspClock"                            |
 | Contraseña de AP                 | -    | "12345"                               |
 
-## 🖼️ Imágenes
+## 📊 Resultados
 
-![Diagrama de Bloque de Watchy](watchy-block-diagram2.webp)
-![Diseño Open Source de Watchy](watchy-esp32-smart-watch-open-source-design.webp)
+A continuación se muestran algunas imágenes de cómo quedó el proyecto final:
+
+### Diagrama de Bloques
+
+![Diagrama de Bloques](watchy-block-diagram2.webp)
+
+*Este diagrama muestra la estructura y la conexión de los componentes del proyecto.*
+
+### Diseño del Reloj
+
+![Diseño del Reloj](watchy-esp32-smart-watch-open-source-design.webp)
+
+*Esta imagen muestra el diseño final del reloj utilizando la pantalla E-Paper y el ESP32.*
+
+## 📋 Cómo se usa
+
+Este sistema permite controlar y registrar pastillas mediante comandos enviados por Bluetooth. Los siguientes comandos están disponibles para interactuar con el sistema:
+
+### Comandos disponibles:
+
+1. **🕒 `/setHora <hora en formato 12 horas>`**  
+   Este comando te permite actualizar la hora actual del sistema. La hora debe estar en formato de 12 horas, especificando AM o PM.  
+   - **Ejemplo:** `/setHora 09:30 PM`
+   - **Resultado:** La hora se actualiza a las 9:30 PM.
+
+2. **📅 `/setFecha <día/mes/año>`**  
+   Este comando establece la fecha actual del sistema. El formato es `día/mes/año`.  
+   - **Ejemplo:** `/setFecha 21/10/2024`
+   - **Resultado:** La fecha se actualiza al 21 de octubre de 2024.
+
+3. **💊 `/registrar[<nombre>,<hora en formato 24 horas>]`**  
+   Este comando registra una nueva pastilla con su nombre y la hora en la que debe tomarse. El formato de la hora debe ser de 24 horas.  
+   - **Ejemplo:** `/registrar[VitaminaC,14:30]`
+   - **Resultado:** Se registra la pastilla "VitaminaC" a las 14:30 (2:30 PM).
+
+4. **📜 `/listar`**  
+   Este comando muestra una lista de todas las pastillas registradas junto con sus horas programadas.  
+   - **Resultado:** En la pantalla aparecerán los nombres y horarios de las pastillas registradas.
+
+### Notas adicionales:
+
+- El sistema puede manejar hasta **10 pastillas** registradas al mismo tiempo.
+- Cada minuto, el sistema verifica si hay alguna pastilla programada dentro de los próximos 15 minutos. Si es así, se activará una **alerta** con vibración y una notificación en pantalla.
 
 ## 🤝 Contribuciones
 
 Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar pull requests.
+Agradecimientos especiales a los siguientes colaboradores:
+- **JonathanMM03** - Desarrollador principal, responsable de la implementación y mantenimiento del código.
+
 
 ## 📄 Licencia
 
