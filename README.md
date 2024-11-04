@@ -12,8 +12,8 @@ Este proyecto se basa en **Watchy 2.0** y utiliza los siguientes componentes:
 | 💻 USB-Serial CP2104                    | Conversor USB a Serial             |
 | 🖥️ E-Paper Display GDEH0154D67         | Pantalla de bajo consumo           |
 | 🔌 Display Connector AFC07-S24ECC-00    | Conector de pantalla               |
-| 📏 3-Axis Accelerometer BMA423          | Sensor de movimiento                |
-| ⏰ Real Time Clock DS3231                | Módulo de reloj en tiempo real    |
+| 📏 3-Axis Accelerometer BMA423          | Sensor de movimiento               |
+| ⏰ Real Time Clock DS3231               | Módulo de reloj en tiempo real     |
 | 🔋 Battery LiPo 3.7V 200mAh 402030      | Fuente de alimentación             |
 
 ## 📚 Librerías
@@ -62,14 +62,14 @@ El proyecto utiliza las siguientes librerías:
 | Serial Data Line (SDA)          | 21   | Línea de datos serial                 |
 | Serial Clock Line (SCL)         | 22   | Línea de reloj serial                 |
 | **Reloj en Tiempo Real DS3231** |      |                                       |
-| SDA (compartido)                | 21   | Línea de datos serial (compartido)   |
-| SCL (compartido)                | 22   | Línea de reloj (compartido)          |
+| SDA (compartido)                | 21   | Línea de datos serial (compartido)    |
+| SCL (compartido)                | 22   | Línea de reloj (compartido)           |
 | **Botones**                     |      |                                       |
 | Botón 1                          | 26   | Primer botón                          |
 | Botón 2                          | 25   | Segundo botón                         |
 | Botón 3                          | 32   | Tercer botón                          |
 | Botón 4                          | 4    | Cuarto botón                          |
-| **Buzzer**                       | 13   | Motor de vibración                   |
+| **Buzzer**                       | 13   | Motor de vibración                    |
 | **ADC**                          | 33   | Entrada analógica                     |
 | **UART**                         |      |                                       |
 | UART TX                          | 1    | Transmisión UART                      |
@@ -129,10 +129,9 @@ Este sistema permite controlar y registrar pastillas mediante comandos enviados 
 
 ## 🤝 Contribuciones
 
-Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar pull requests.
-Agradecimientos especiales a los siguientes colaboradores:
+Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar pull requests.  
+Agradecimientos especiales a los siguientes colaboradores:  
 - **JonathanMM03** - Desarrollador principal, responsable de la implementación y mantenimiento del código.
-
 
 ## 📄 Licencia
 
@@ -141,3 +140,9 @@ Este proyecto está bajo la Licencia MIT.
 ## 📜 Cita
 
 Aggarwal, P. (2021, 7 agosto). Watchy: an open source E-Paper display watch. Pallav Aggarwal. [https://pallavaggarwal.in/2021/07/04/watchy-epaper-display-esp32-smart-watch/](https://pallavaggarwal.in/2021/07/04/watchy-epaper-display-esp32-smart-watch/)
+
+---
+
+Para la producción de las piezas KP3s de 18 cm³, se empleó un riguroso proceso de fabricación aditiva. Se seleccionó el material PETG+ por su excelente resistencia química, impacto y flexibilidad, propiedades ideales para las aplicaciones previstas. Los filamentos PETG+, tanto en color blanco como negro, fueron adquiridos de 3D Market, un proveedor mexicano reconocido por la alta calidad de sus materiales. Con un diámetro de 1.75 mm y una tolerancia de ±0.02 mm, estos filamentos garantizaron una extrusión precisa y consistente durante el proceso de impresión.
+
+El diseño de las piezas KP3s se modeló meticulosamente en SolidWorks, software CAD de referencia en la industria. Se prestó especial atención a los detalles geométricos y tolerancias dimensionales para asegurar un correcto ensamblaje y funcionamiento de las piezas finales. Una vez finalizado el diseño, el modelo 3D se exportó a Cura 5.1, un software de corte de última generación que permite optimizar el proceso de impresión y garantizar la calidad de las piezas producidas.
