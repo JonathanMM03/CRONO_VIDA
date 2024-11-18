@@ -103,24 +103,53 @@ Este sistema permite controlar y registrar pastillas mediante comandos enviados 
 
 ### Comandos disponibles:
 
-1. **🕒 `/setHora <hora en formato 12 horas>`**  
-   Este comando te permite actualizar la hora actual del sistema. La hora debe estar en formato de 12 horas, especificando AM o PM.  
-   - **Ejemplo:** `/setHora 09:30 PM`
-   - **Resultado:** La hora se actualiza a las 9:30 PM.
+1. **🕒 `/setHora <hora en formato 24 horas>`**  
+   Este comando te permite actualizar la hora actual del sistema. La hora debe estar en formato de 24 horas.  
+   - **Ejemplo:**  
+     ```cpp
+     String comandoSetHora = "/setHora 15:30";
+     processCommand(comandoSetHora);  // Establecer hora a las 15:30
+     ```
 
 2. **📅 `/setFecha <día/mes/año>`**  
    Este comando establece la fecha actual del sistema. El formato es `día/mes/año`.  
-   - **Ejemplo:** `/setFecha 21/10/2024`
-   - **Resultado:** La fecha se actualiza al 21 de octubre de 2024.
+   - **Ejemplo:**  
+     ```cpp
+     String comandoSetFecha = "/setFecha 25/12/2024";
+     processCommand(comandoSetFecha);  // Establecer fecha a 25 de diciembre de 2024
+     ```
 
 3. **💊 `/registrar[<nombre>,<hora en formato 24 horas>]`**  
    Este comando registra una nueva pastilla con su nombre y la hora en la que debe tomarse. El formato de la hora debe ser de 24 horas.  
-   - **Ejemplo:** `/registrar[VitaminaC,14:30]`
-   - **Resultado:** Se registra la pastilla "VitaminaC" a las 14:30 (2:30 PM).
+   - **Ejemplo:**  
+     ```cpp
+     String comandoRegistrar = "/registrar[MedicamentoA,08:00]";
+     processCommand(comandoRegistrar);  // Registrar la pastilla "MedicamentoA" a las 08:00
+     ```
 
 4. **📜 `/listar`**  
    Este comando muestra una lista de todas las pastillas registradas junto con sus horas programadas.  
-   - **Resultado:** En la pantalla aparecerán los nombres y horarios de las pastillas registradas.
+   - **Ejemplo:**  
+     ```cpp
+     String comandoListar = "/listar";
+     processCommand(comandoListar);  // Listar todas las pastillas registradas
+     ```
+
+5. **❌ `/eliminar[<id>]`**  
+   Este comando elimina una pastilla registrada por su ID.  
+   - **Ejemplo:**  
+     ```cpp
+     String comandoEliminar = "/eliminar[1]";  // Eliminar la pastilla con ID 1
+     processCommand(comandoEliminar);
+     ```
+
+6. **🔄 `/actualizar[id=<id>,nombre=<nombre>,hora=<hora en formato 24 horas>]`**  
+   Este comando actualiza el nombre o la hora de una pastilla registrada mediante su ID.  
+   - **Ejemplo:**  
+     ```cpp
+     String comandoActualizar = "/actualizar[id=1,nombre=A,hora=9:43]";  // Actualizar la pastilla con ID 1
+     processCommand(comandoActualizar);
+     ```
 
 ### Notas adicionales:
 
