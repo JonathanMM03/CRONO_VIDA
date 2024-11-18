@@ -26,6 +26,18 @@ El proyecto utiliza las siguientes librerías:
 - `BluetoothSerial.h`
 - `GxEPD2_BW.h`
 
+### Permisos requeridos
+
+Para que la aplicación funcione correctamente, es necesario agregar los siguientes permisos en el archivo `AndroidManifest.xml`:
+
+#### Permisos de Bluetooth:
+```xml
+<uses-permission android:name="android.permission.BLUETOOTH" />
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+<uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+<uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+<uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+
 ## 🚀 Funcionamiento
 
 **CRONO VIDA** permite a los usuarios gestionar sus horarios de medicación de la siguiente manera:
