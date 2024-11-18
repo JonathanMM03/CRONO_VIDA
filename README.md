@@ -2,6 +2,12 @@
 
 **CRONO VIDA** es un dispositivo wearable basado en el microcontrolador **ESP32-PICO-D4** que ayuda a gestionar horarios de medicación. Utiliza una pantalla E-Paper para mostrar la hora y emite recordatorios vibrantes. Permite interacción vía **Bluetooth** para registrar horarios y ajustar configuraciones, promoviendo una vida más organizada y saludable.
 
+### Síguenos en Facebook
+
+Puedes seguirnos en Facebook para más actualizaciones y noticias en nuestra página oficial:
+
+[Visítanos en Facebook](https://www.facebook.com/profile.php?id=61561359332791&mibextid=ZbWKwL)
+
 ## 🔧 Componentes
 
 Este proyecto se basa en **Watchy 2.0** y utiliza los siguientes componentes:
