@@ -145,4 +145,8 @@ Aggarwal, P. (2021, 7 agosto). Watchy: an open source E-Paper display watch. Pal
 
 Para la producción de las piezas KP3s de 18 cm³, se empleó un riguroso proceso de fabricación aditiva. Se seleccionó el material PETG+ por su excelente resistencia química, impacto y flexibilidad, propiedades ideales para las aplicaciones previstas. Los filamentos PETG+, tanto en color blanco como negro, fueron adquiridos de 3D Market, un proveedor mexicano reconocido por la alta calidad de sus materiales. Con un diámetro de 1.75 mm y una tolerancia de ±0.02 mm, estos filamentos garantizaron una extrusión precisa y consistente durante el proceso de impresión.
 
-El diseño de las piezas KP3s se modeló meticulosamente en SolidWorks, software CAD de referencia en la industria. Se prestó especial atención a los detalles geométricos y tolerancias dimensionales para asegurar un correcto ensamblaje y funcionamiento de las piezas finales. Una vez finalizado el diseño, el modelo 3D se exportó a Cura 5.1, un software de corte de última generación que permite optimizar el proceso de impresión y garantizar la calidad de las piezas producidas.
+El diseño de las piezas KP3s se modeló meticulosamente en SolidWorks, software CAD de referencia en la industria. Se prestó especial atención a los detalles geométricos y tolerancias dimensionales para asegurar un correcto ensamblaje y funcionamiento de las piezas finales. Una vez finalizado el diseño, el modelo 3D se exportó a Cura 5.3.0, donde se configuraron los parámetros de impresión, como velocidad de impresión, temperatura de extrusión, entre otros. La impresión se realizó en una impresora Creality Ender 3, garantizando la máxima precisión.
+
+---
+
+Este es el formato de tu README en Markdown actualizado con toda la información proporcionada.
